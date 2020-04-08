@@ -1,15 +1,15 @@
 :root {
-  --black: #0d0d0d;
-  --red: #ff2d2b;
+  --black: #000000d2;
+  --red: #ff1100;
 }
 
 .scoreboard {
-  width: 58%;
-  margin: 2rem auto;
-  background-color: #0b5402;
+  width: 50%;
+  margin: auto;
+  background-color: #0c5402e8;
   color: white;
-  border-radius: 0.5rem;
-  padding: 5rem;
+  border-radius: 10px;
+  padding: 10px;
   border: 4px solid #aaaaaa;
 }
 
@@ -17,7 +17,7 @@
   display: flex;
   justify-content: space-around;
   place-items: center;
-  /* height: 20rem; */
+ 
 }
 
 .home,
@@ -64,7 +64,7 @@
 
 .timer {
   font-family: "Ozone";
-  font-size: 9rem;
+  font-size: 10rem;
   padding: 2rem;
   text-align: center;
   background-color: var(--black);
@@ -73,8 +73,9 @@
 }
 
 .bottomRow {
+  margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   place-items: center;
   height: 20rem;
 }
@@ -106,10 +107,10 @@
 }
 
 .buttons {
-  width: 50%;
+  
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .homeButtons__touchdown,

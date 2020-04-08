@@ -35,11 +35,9 @@ button {
   background: #414141;
   color: #ffffff;
   font-family: inherit;
-  font-size: 1.6rem;
-  cursor: pointer;
+  font-size: 1.6rem;  cursor: pointer;
   text-align: center;
-  transition: background 250ms ease-in-out, transform 150ms ease;
-  -webkit-appearance: none;
+    -webkit-appearance: none;
   -moz-appearance: none;
 }
 
